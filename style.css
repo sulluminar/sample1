@@ -1,0 +1,29 @@
+.header-area{
+    height: 100px;
+    background-color: antiquewhite;
+    position: absolute;
+    top:0;
+    left: 0;
+    right:0;
+    bottom: 0;
+    width: 100%;
+}
+
+.listItem{
+    display: inline-block;
+    margin:10px 20px;
+}
+.lists{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.lists:hover{
+    color: red;
+}
+nav{
+    height: 100px;
+    display: flex; /* align items in a line */
+    justify-content: space-between; /* place elements one on left and one on right */ 
+    align-items: center;  /* to align item vertically center*/
+}
